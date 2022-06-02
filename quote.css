@@ -1,0 +1,10 @@
+.quote {
+  background-color: lightskyblue;
+  margin: 1em;
+  padding: 1em;
+  border-radius: 0.5em;
+}
+
+.author {
+  padding: 1em;
+}
