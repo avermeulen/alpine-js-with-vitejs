@@ -9,6 +9,8 @@
   <body>
     <script type="module" src="/main.js"></script>
     <div id="app" x-data="counter">
+      <h2>Counter</h2>
+
       <div x-text="c"></div>
       <button @click="minus">--</button>
 
@@ -17,7 +19,11 @@
       <button @click="plus">++</button>
     </div>
 
+    <hr />
+
     <div x-data="fun">
+      <h2>Quotes</h2>
+
       <button @click="previousQuote()">Previous quote</button>
       <button @click="nextQuote()">Next quote</button>
       <div class="quote" x-transition>
